@@ -1,0 +1,31 @@
+name: vaios
+publish_to: none
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+dependencies:
+  ac_define:
+    git: git@repo.centryl.org:ac/ac_define.git
+  ac_device_track:
+    git: git@repo.centryl.org:ac/ac_device_track.git
+  binary_utils:
+    git: git@repo.centryl.org:utils/binary_utils.git
+  buffer:
+    git: git@repo.centryl.org:utils/buffer.git
+  cl_auth:
+    git: git@repo.centryl.org:centryl/cl_auth.git
+  cl_base:
+    git: git@repo.centryl.org:centryl/cl_base.git
+  cl_local:
+    git: git@repo.centryl.org:centryl/cl_local.git
+  socket:
+    git: git@repo.centryl.org:utils/socket.git
+  task:
+    git: git@repo.centryl.org:utils/task.git
+#  smart_home_web:
+#    git: git@repo.centryl.org:teodor.ivan0v/smart_home_web.git
+dev_dependencies:
+  build_runner: ^2.1.11
+  build_web_compilers: ^3.2.3
+
+dependency_overrides:
+
