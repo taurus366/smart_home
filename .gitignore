@@ -1,0 +1,6 @@
+.packages
+.dart_tool
+.idea
+.pub
+packages
+pubspec.lock
