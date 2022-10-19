@@ -1,8 +1,10 @@
 name: smart_home
+version: 2.0.0
 publish_to: none
 environment:
   sdk: '>=2.12.0 <3.0.0'
 dependencies:
+  archive: any
   ac_define:
     git: git@repo.centryl.org:ac/ac_define.git
   ac_device_track:
@@ -21,6 +23,8 @@ dependencies:
     git: git@repo.centryl.org:utils/socket.git
   task:
     git: git@repo.centryl.org:utils/task.git
+  cl_annotation:
+      git: git@repo.centryl.org:centryl/cl_annotation.git
 #  smart_home_web:
 #    git: git@repo.centryl.org:teodor.ivan0v/smart_home_web.git
 dev_dependencies:
