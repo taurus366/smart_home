@@ -1,4 +1,4 @@
-name: vaios
+name: smart_home
 publish_to: none
 environment:
   sdk: '>=2.12.0 <3.0.0'
